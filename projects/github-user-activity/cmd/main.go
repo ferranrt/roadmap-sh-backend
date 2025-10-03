@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-	log.Println("Application started")
+	fmt.Println("Project slug: github-user-activity")
+	log.Println("Application started for project: github-user-activity")
 }
