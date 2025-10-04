@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"log"
+	"ferranrt/roadmap-sh/github-user-activity/internal/commands"
 )
 
 func main() {
-	fmt.Println("Project slug: github-user-activity")
-	log.Println("Application started for project: github-user-activity")
+	commands.GetRootCmd().Execute()
 }

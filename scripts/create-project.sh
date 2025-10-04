@@ -50,7 +50,7 @@ EOF
 # Create go.mod file
 echo "Creating go.mod file..."
 cat > "projects/$slug/go.mod" << EOF
-module ferranrt/roadmap-sh/backend/$slug
+module ferranrt/roadmap-sh/$slug
 
 go 1.24.0
 EOF
