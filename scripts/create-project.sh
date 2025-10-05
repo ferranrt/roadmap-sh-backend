@@ -55,6 +55,16 @@ module ferranrt/roadmap-sh/$slug
 go 1.24.0
 EOF
 
+# Create README.md file
+echo "Creating README.md file..."
+cat > "projects/$slug/README.md" << EOF
+# $slug
+
+## Description
+
+This is a project for $slug.
+EOF
+
 echo ""
 echo "✅ Project structure created successfully!"
 echo ""

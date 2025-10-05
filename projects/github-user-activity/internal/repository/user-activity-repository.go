@@ -6,5 +6,5 @@ import (
 )
 
 type UserActivityRepository interface {
-	GetUserActivity(ctx context.Context, userID string) (domain.UserActivity, error)
+	GetUserActivities(ctx context.Context, userID string, pagination domain.QueryPagination) ([]domain.UserActivity, error)
 }
