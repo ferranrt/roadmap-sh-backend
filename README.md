@@ -44,7 +44,8 @@ Next steps:
 
 ## Projects
 
-| Project              | URL                                              |
+https://roadmap.sh/projects/github-user-activity
+| Project | URL |
 | -------------------- | ------------------------------------------------ |
 | Github User Activity | https://roadmap.sh/projects/github-user-activity |
-|                      |                                                  |
+| | |
