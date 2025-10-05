@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"log"
+	"ferranrt/roadmap-sh/expense-tracker/internal/commands"
 )
 
 func main() {
-	fmt.Println("Project slug: expense-tracker")
-	log.Println("Application started for project: expense-tracker")
+	commands.GetRootCmd().Execute()
 }
