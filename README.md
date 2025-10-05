@@ -41,3 +41,10 @@ Next steps:
 2. Run 'go mod tidy' in each project directory to update dependencies
 3. Test your projects to ensure compatibility
 ```
+
+## Projects
+
+| Project              | URL                                              |
+| -------------------- | ------------------------------------------------ |
+| Github User Activity | https://roadmap.sh/projects/github-user-activity |
+|                      |                                                  |
